@@ -1,0 +1,42 @@
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Python Cache & Logs
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# =========================
+# Environment Variables (Sangat Penting!)
+# =========================
+.env
+.streamlit/secrets.toml
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# File Generate / Output Sistem
+# =========================
+# Abaikan file PDF laporan medis pasien agar data tidak bocor ke publik
+*.pdf
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
