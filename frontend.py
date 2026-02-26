@@ -203,7 +203,7 @@ if submitted:
         }
         
         try:
-            response = requests.post("http://127.0.0.1:5000/predict", json=payload)
+            response = requests.post("http://35.232.25.48:5000/predict", json=payload)
             
             if response.status_code == 200:
                 res_data = response.json()
